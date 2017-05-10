@@ -232,7 +232,7 @@ body {
   padding-left: 1px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: #ffffff repeat-y;
+  background: #ffffff url(../pc_img/common/bg_d6d6d6.png) repeat-y;
 }
 .LyMain.lyMainError {
   background: #fff;
@@ -419,7 +419,7 @@ Extend
 .MdCMN13SelectBox .mdCMN13NewSelect02 .mdCMN13Label:before,
 .MdCMN13SelectBox .mdCMN13NewSelect03 .mdCMN13Label:before,
 .MdCMN13SelectBox .mdCMN13NewSelect04 .mdCMN13Label:before, .MdCMN15List .mdCMN15PointIco, .MdCMN18MyInfo .myCMN18EditProfile .myCMN18Shadow, .MdCMN22Share a, .MdCMN25Setting .mdCMN25Ul li:before {
-  background-image: url(/files/test.png);
+  background-image: url(../pc_img/sprite/main_170113.png);
 }
 
 .MdLYR08List .mdLYR08Img .mdLYR08Shadow, .MdIcoSearch02, .MdIcoRadio02 .mdIcoRadio02Ico, .MdIcoCheck01 .mdIcoCheck01Ico {
