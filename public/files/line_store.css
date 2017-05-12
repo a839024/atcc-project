@@ -207,7 +207,7 @@ body {
   padding-left: 1px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: #ffffff url(../pc_img/common/bg_d6d6d6.png) repeat-y;
+  background: #ffffff repeat-y;
 }
 .LyMain.lyMainError {
   background: #fff;
