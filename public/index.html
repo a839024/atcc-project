@@ -80,7 +80,13 @@
 
                 <div class="slideshow-container">
                     <div class="mySlides0 fade">
-                        <img src="/files/oil-color/oil-color1.png" class="SlideShowImg">
+                        <img src="/files/oil-color/oil-color1.png" class="SlideShowImg" id="myImg" alt="Trolltunga, Norway">
+                    </div>
+
+                    <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
                     </div>
 
                     <div class="mySlides0 fade">
@@ -270,6 +276,24 @@
             slides[i].style.display = "none";
           }
           slides[slideIndex[t]-1].style.display = "block";
+        }
+    </script>
+
+    <script>
+        var modal = document.getElementById('myModal');
+        var img = document.getElementById('myImg');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        var span = document.getElementsByClassName("close")[0];
+
+        span.onclick = function() {
+            modal.style.display = "none";
         }
     </script>
 </body>
