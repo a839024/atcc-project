@@ -427,12 +427,12 @@ Contents Specific Style
 
 .LyMain .ContentIndent{
     display: block;
-    height: 50px;
+    height: 60px;
 }
 
 .LyMain .ContentTextView{
     display:block;
-    margin-left:60px;
+    margin-left:40px;
 }
 
 .LyMain .ContentTextView .ContentTitle{
