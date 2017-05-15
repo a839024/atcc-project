@@ -512,22 +512,16 @@ Slide Show
 Image Modal
 ==================================================
 */
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.myImg2 {
+.littleModal {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
     width:20%;
     height:auto;
-    margin-left: 20px
+    margin-left: 40px
 }
 
-#myImg:hover, .myImg2:hover {opacity: 0.7;}
+.littleModal:hover {opacity: 0.7;}
 
 .modal {
     display: none;
