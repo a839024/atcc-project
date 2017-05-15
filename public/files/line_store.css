@@ -522,8 +522,9 @@ Image Modal
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    width:10%;
+    width:20%;
     height:auto;
+    margin-left: 20px
 }
 
 #myImg:hover, .myImg2:hover {opacity: 0.7;}
