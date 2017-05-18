@@ -199,6 +199,7 @@ body {
 */
 .LyContents {
   margin: 0 auto;
+  background-color: #262a35
 }
 
 .LyMain {
@@ -216,7 +217,6 @@ body {
 .LySub {
   float: left;
   width: 100px;
-  height: 100%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background-color: #30323f;
@@ -433,6 +433,7 @@ Contents Specific Style
 .LyMain .ContentTextView{
     display:block;
     margin-left:40px;
+    margin-bottom: 12px
 }
 
 .LyMain .ContentTextView .ContentTitle{

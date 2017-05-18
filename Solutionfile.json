@@ -1,5 +1,1 @@
-{
-  "default_page": "index.html",
-  "file_dir": "public",
-  "cors": {"origin": ["http://localhost:*"]}
-}
+{"custom_api": "sample_api.lua", "default_page": "index.html", "version": "0.2", "file_dir": "public", "cors": {"origin": ["http://localhost:*"]}}
